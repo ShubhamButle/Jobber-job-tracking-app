@@ -46,7 +46,7 @@ app.use('/api/v1/auth', authRouter);
 app.use('/api/v1/jobs', authenticateUser, jobRouter);
 
 app.get('*', (req, res, next) => {
-  res.sendFile(path.resolve(__dirname, './public', 'index.html'));
+  res.sendFile(path.resolve(__dirname, './client/dist', 'index.html'));
 });
 
 //NOT FOUND MIDDLEWARE
