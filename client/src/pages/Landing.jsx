@@ -20,7 +20,7 @@ const Landing = () => {
             empower you to effortlessly manage your job search journey. Stay
             organized with personalized dashboards, receive timely updates, and
             gain insights to optimize your career path. Elevate your job-hunting
-            experience with Jobber today!
+            experience with Jobber today!!
           </p>
           <Link to='/register' className='btn register-link'>
             Register
