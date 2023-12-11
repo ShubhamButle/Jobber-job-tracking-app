@@ -3,9 +3,9 @@ import logo from '../assets/images/logo.svg';
 const Logo = () => {
   return (
     <>
-      <Link to='/'>
-        <img src={logo} alt='jobber' className='logo' />
-      </Link>
+      {/* <Link to='/dashboard'> */}
+      <img src={logo} alt='jobber' className='logo' />
+      {/* </Link> */}
     </>
   );
 };

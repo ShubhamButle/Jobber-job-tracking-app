@@ -16,10 +16,11 @@ const Landing = () => {
             job <span>tracking</span>app
           </h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-            quis ad facilis at ut alias sequi maiores reprehenderit maxime
-            itaque quidem rerum, earum quas ab veritatis iste, ipsa suscipit
-            nesciunt.
+            Welcome to Jobber, your go-to platform for seamless job tracking. We
+            empower you to effortlessly manage your job search journey. Stay
+            organized with personalized dashboards, receive timely updates, and
+            gain insights to optimize your career path. Elevate your job-hunting
+            experience with Jobber today!
           </p>
           <Link to='/register' className='btn register-link'>
             Register
